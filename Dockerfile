@@ -8,7 +8,7 @@ ENV TZ UTC
 # We're using a fork of elastic-doc-manager that support multiple
 # Elastic hosts.
 RUN pip install --upgrade pip && pip install\
- mongo-connector==2.3\
+ mongo-connector==2.4\
  https://github.com/quintstoffers/elastic-doc-manager/archive/master.zip
 
 
